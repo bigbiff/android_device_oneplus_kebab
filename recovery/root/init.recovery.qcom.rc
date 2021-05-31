@@ -49,7 +49,7 @@ on init
     mkdir /dev/fscklogs 0770 root system
 
 on boot
-    setprop sys.usb.config adb
+    #setprop sys.usb.config adb
 
     #chmod 0777 mount-dynamic-rw.sh
     chmod 0777 /system/bin/unified-script.sh
